@@ -13,7 +13,7 @@
     {#if $$slots.title}
         {#if href}
           <h1>
-            <a {href}h>
+            <a {href}>
               <slot name="title" />
             </a>
           </h1>

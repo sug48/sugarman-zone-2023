@@ -18,7 +18,7 @@
   // posts pagination
   let canGoBack = false
   afterNavigate(({ from }) => {
-    if (from && from.url.pathname.startsWith('/blogzone')) {
+    if (from && from.url.pathname.startsWith('/posts')) {
       canGoBack = true
     }
   })
@@ -51,7 +51,7 @@
   <meta name="twitter:image" content={avatar} />
 </svelte:head>
 
-<div>
+<div class="blog">
   <header>
       <h1>
         <a href="/blogzone/posts" class="navLinks">
@@ -73,7 +73,7 @@
 </div>
 
 <style>
-  div {
+  .blog {
       min-height: 100vh;
       width: 80vw;
       background: rgba(255, 255, 255, 0.733);
