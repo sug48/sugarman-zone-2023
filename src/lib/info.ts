@@ -10,12 +10,9 @@ export const lastName = 'Sugarman'
 export const name = `${firstName} ${lastName}`
 
 // Used for the landing page & footer of posts
-export const avatar = ''
-export const bio = `\
-I’m ${firstName}, Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
-sit amet arcu mi. Duis quis mauris malesuada, posuere orci et, pulvinar nisl. Nam malesuada
-vehicula sapien vitae sagittis.
+export const avatar = '%sveltekit.assets%/sug-manifest.png'
+export const bio = `
+I’m ${firstName}. I live in Providence, RI and work at the Initiative for Digital Public Infrasturcture at UMass Amherst. I perform and release music as Sug and Extestines.
 `
 
 // Your social usernames, empty strings won't be used.

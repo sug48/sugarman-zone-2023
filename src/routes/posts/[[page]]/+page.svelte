@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-  <title>{name} | Posts</title>
+  <title>{name} | Blog</title>
 </svelte:head>
 
 

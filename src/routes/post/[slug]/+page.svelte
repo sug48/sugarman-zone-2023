@@ -40,7 +40,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content={data.post.title} />
   <meta property="og:description" content={data.post.preview.text} />
-  <meta property="og:image" content={ogImage} />
+  <meta property="og:image" content={avatar} />
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -48,7 +48,7 @@
   <meta property="twitter:url" content={url} />
   <meta name="twitter:title" content={data.post.title} />
   <meta name="twitter:description" content={data.post.preview.text} />
-  <meta name="twitter:image" content={ogImage} />
+  <meta name="twitter:image" content={avatar} />
 </svelte:head>
 
 <div>
