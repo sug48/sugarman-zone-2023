@@ -96,8 +96,8 @@
     color: white;
   }
 
-  @media (min-width: 480px) {
-		div {
+  @media (min-width: 800px) {
+		.blog {
 			width: 60vw;
 		}
 	}

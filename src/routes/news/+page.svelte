@@ -26,6 +26,13 @@
     p {
         font-family: Paysage;
         font-size: large;
+        width: 80vw;
     }
+
+    @media (min-width: 800px) {
+		p {
+			width: 60vw;
+		}
+	}
 
 </style>
