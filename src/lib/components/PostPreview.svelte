@@ -5,7 +5,7 @@
   export let post
 </script>
 
-<Card href={`/post/${post.slug}`} data-sveltekit-prefetch>
+<Card href={`/blogzone/${post.slug}`} data-sveltekit-prefetch>
     <slot slot="title">{post.title}</slot>
     <strong slot="date">
       <time datetime={post.date}>

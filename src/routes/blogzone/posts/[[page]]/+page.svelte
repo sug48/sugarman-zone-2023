@@ -1,5 +1,5 @@
 <script>
-  import { name } from '$lib/info.ts'
+  import { name } from '$lib/info'
   import PostsList from '$lib/components/PostsList.svelte'
 
   /** @type {import('./$types').PageData} */
@@ -34,7 +34,7 @@
     .blog {
         min-height: 100vh;
         width: 80vw;
-        background: rgba(255, 255, 255, 0.433);
+        background: rgba(255, 255, 255, 0.733);
         padding: 1vh 5vw;
     }
 

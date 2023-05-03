@@ -1,8 +1,10 @@
 ---
-title: Strike Against Streaming: Why Musicians Should Stand in Solidarity with the Writers' Guild
+title: "Strike Against Streaming: Why Musicians Should Stand in Solidarity with the Writers' Guild"
 date: 05-03-2023
-slug:strike-streaming-musicians-wga
+year: 2023
+slug: strike-streaming-musicians-wga
 ---
+
 *The current WGA strike represents one of the first, and arguably the largest labor actions by artists and creative workers against streaming companies. We musicians should find this inspiring in our own struggles with Spotify and other platforms.*
 
 On May Day 2023, the Writers’ Guild of America voted unanimously to approve a strike, and the pickets began the next day. Quickly, the American film and television industry ground to a stand still, and there are rumblings that the DGA (the Directors’ guild) and SAG-AFTRA (the Screen Actors’ Guild) will follow suit.

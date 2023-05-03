@@ -7,7 +7,7 @@
 </h1>
 
 <div class="buttonGrid">
-    <a href="/posts">
+    <a href="/blogzone/posts">
         <button>
             Please read my posts
         </button>

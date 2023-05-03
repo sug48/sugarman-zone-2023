@@ -1,5 +1,5 @@
 <script>
-  import { website, name, bio, avatar } from '$lib/info.ts'
+  import { website, name, bio, avatar } from '$lib/info.js'
   import { afterNavigate } from '$app/navigation'
   import { format, parseISO } from 'date-fns'
 
@@ -18,7 +18,7 @@
   // posts pagination
   let canGoBack = false
   afterNavigate(({ from }) => {
-    if (from && from.url.pathname.startsWith('/posts')) {
+    if (from && from.url.pathname.startsWith('/blogzone')) {
       canGoBack = true
     }
   })
@@ -52,7 +52,16 @@
 </svelte:head>
 
 <div>
-      <header>
+  <header>
+      <h1>
+        <a href="/blogzone/posts" class="navLinks">
+          The Zone
+        </a>
+      </h1>
+      <p>sound and other waves</p>
+      <p class="wiggle">
+        <a href="/" class="navLinks">home</a> ~/~/~ <a href="mailto:sugarman.zone" class="navLinks">subscribe</a>
+      </p>
         <h1>
           {data.post.title}
         </h1>
@@ -67,12 +76,24 @@
   div {
       min-height: 100vh;
       width: 80vw;
-      background: rgba(255, 255, 255, 0.433);
+      background: rgba(255, 255, 255, 0.733);
       padding: 2vh 5vw;
   }
 
   p {
       color: black;
+  }
+
+  .navLinks {
+      color: var(--color-blog-1);
+    }
+
+  .navLinks:hover, .navLinks:focus {
+    color: var(--color-blog-0);
+  }
+
+  .wiggle {
+    color: white;
   }
 
   @media (min-width: 480px) {

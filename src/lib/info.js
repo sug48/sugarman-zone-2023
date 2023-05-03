@@ -7,7 +7,7 @@ export const website = 'https://sugarman.zone'
 
 export const firstName = 'Michael'
 export const lastName = 'Sugarman'
-export const name = `${firstName} ${lastName}`
+export const name = `sugzone`
 
 // Used for the landing page & footer of posts
 export const avatar = '%sveltekit.assets%/sug-manifest.png'
