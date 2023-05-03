@@ -1,5 +1,5 @@
 <script>
-  import { website, name, bio, avatar } from '$lib/info.js'
+  import { website, name, bio, avatar } from '$lib/info.ts'
   import { afterNavigate } from '$app/navigation'
   import { format, parseISO } from 'date-fns'
 
