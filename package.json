@@ -34,6 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "^2.4.3",
 		"date-fns": "^2.30.0",
 		"node-html-parser": "^6.1.5"
 	}
