@@ -1,92 +1,92 @@
 
 @font-face {
     font-family: 'Isenheim';
-    src: url('fonts/Isenheim/Isenheim_Regulier.otf') format('opentype');
+    src: url('../static/fonts/Isenheim/Isenheim_Regulier.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Brassia';
-    src: url('fonts/brassia/Brassia-Regular.otf') format('opentype'),
-         url('fonts/brassia/Brassia-Regular.woff') format('woff'),
-         url('fonts/brassia/Brassia-Regular.woff2') format('woff2');
+    src: url('../static/fonts/brassia/Brassia-Regular.otf') format('opentype'),
+         url('../static/fonts/brassia/Brassia-Regular.woff') format('woff'),
+         url('../static/fonts/brassia/Brassia-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'GeneraleStation';
-    src: url('fonts/GeneraleStation/GeneraleStation-Regular.woff') format('woff'),
-         url('fonts/GeneraleStation/GeneraleStation-Regular.woff2') format('woff2'),
-         url('fonts/GeneraleStation/GeneraleStation-Extended.woff') format('woff'),
-         url('fonts/GeneraleStation/GeneraleStation-Extended.woff2') format('woff2'),
-         url('fonts/GeneraleStation/GeneraleStation-SemiExtended.woff') format('woff'),
-         url('fonts/GeneraleStation/GeneraleStation-SemiExtended.woff2') format('woff2'),
-         url('fonts/GeneraleStation/GeneraleStation-UltraExtended.woff') format('woff'),
-         url('fonts/GeneraleStation/GeneraleStation-UltraExtended.woff2') format('woff2');
+    src: url('../static/fonts/GeneraleStation/GeneraleStation-Regular.woff') format('woff'),
+         url('../static/fonts/GeneraleStation/GeneraleStation-Regular.woff2') format('woff2'),
+         url('../static/fonts/GeneraleStation/GeneraleStation-Extended.woff') format('woff'),
+         url('../static/fonts/GeneraleStation/GeneraleStation-Extended.woff2') format('woff2'),
+         url('../static/fonts/GeneraleStation/GeneraleStation-SemiExtended.woff') format('woff'),
+         url('../static/fonts/GeneraleStation/GeneraleStation-SemiExtended.woff2') format('woff2'),
+         url('../static/fonts/GeneraleStation/GeneraleStation-UltraExtended.woff') format('woff'),
+         url('../static/fonts/GeneraleStation/GeneraleStation-UltraExtended.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Paysage';
-	src: url('fonts/Paysage/Paysage-Regular.woff') format('woff'),
-		 url('fonts/Paysage/Paysage-Regular.woff2') format('woff2'),
-		 url('fonts/Paysage/Paysage-Medium.woff') format('woff'),
-		 url('fonts/Paysage/Paysage-Medium.woff2') format('woff2'),
-		 url('fonts/Paysage/Paysage-Bold.woff') format('woff'),
-		 url('fonts/Paysage/Paysage-Bold.woff2') format('woff2'),
-		 url('fonts/Paysage/Paysage-Black.woff') format('woff'),
-		 url('fonts/Paysage/Paysage-Black.woff2') format('woff2');
+	src: url('../static/fonts/Paysage/Paysage-Regular.woff') format('woff'),
+		 url('../static/fonts/Paysage/Paysage-Regular.woff2') format('woff2'),
+		 url('../static/fonts/Paysage/Paysage-Medium.woff') format('woff'),
+		 url('../static/fonts/Paysage/Paysage-Medium.woff2') format('woff2'),
+		 url('../static/fonts/Paysage/Paysage-Bold.woff') format('woff'),
+		 url('../static/fonts/Paysage/Paysage-Bold.woff2') format('woff2'),
+		 url('../static/fonts/Paysage/Paysage-Black.woff') format('woff'),
+		 url('../static/fonts/Paysage/Paysage-Black.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Anybody';
-	src: url('fonts/Anybody/Anybody-ThinItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-Thin.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-SemiBoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-SemiBold.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-Regular.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-MediumItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-Medium.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-LightItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-Light.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-Italic.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-ExtraLightItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-ExtraLight.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-ExtraBoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-ExtraBold.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-BoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-Bold.woff2') format('woff2'),
-		 url('fonts/Anybody/Anybody-Black.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-Thin.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-SemiBoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-SemiBold.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-Regular.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-MediumItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-Medium.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-LightItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-Light.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-Italic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-ExtraLightItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-ExtraLight.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-ExtraBoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-ExtraBold.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-BoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-Bold.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyUltraCondensed-Black.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-ThinItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-Thin.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-SemiBoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-SemiBold.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-Regular.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-MediumItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-Medium.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-LightItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-Light.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-Italic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-ExtraLightItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-ExtraLight.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-ExtraBoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-ExtraBold.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-BoldItalic.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-Bold.woff2') format('woff2'),
-		 url('fonts/Anybody/AnybodyExtraExpanded-Black.woff2') format('woff2');
+	src: url('../static/fonts/Anybody/Anybody-ThinItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-Thin.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-SemiBoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-SemiBold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-Regular.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-MediumItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-Medium.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-LightItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-Light.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-Italic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-ExtraLightItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-ExtraLight.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-ExtraBoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-ExtraBold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-BoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-Bold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/Anybody-Black.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-Thin.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-SemiBoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-SemiBold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-Regular.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-MediumItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-Medium.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-LightItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-Light.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-Italic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-ExtraLightItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-ExtraLight.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-ExtraBoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-ExtraBold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-BoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-Bold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyUltraCondensed-Black.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-ThinItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-Thin.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-SemiBoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-SemiBold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-Regular.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-MediumItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-Medium.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-LightItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-Light.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-Italic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-ExtraLightItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-ExtraLight.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-ExtraBoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-ExtraBold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-BoldItalic.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-Bold.woff2') format('woff2'),
+		 url('../static/fonts/Anybody/AnybodyExtraExpanded-Black.woff2') format('woff2');
 }
 
 
