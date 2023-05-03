@@ -1,5 +1,5 @@
 <script>
-  import { name } from '$lib/info.js'
+  import { name } from '$lib/info.ts'
   import PostsList from '$lib/components/PostsList.svelte'
 
   /** @type {import('./$types').PageData} */
