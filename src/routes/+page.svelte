@@ -6,6 +6,11 @@
     You've entered the Sugarman Zone
 </h1>
 
+<div class="perfectInfo">
+    <p class="perfectInfoText">Out now <a href="https://cached.media/perfect-information">on Cached Media</a></p>
+    <img src="./src/static/perfect-info-cover.jpg" alt="Perfect Information by Michael Sugarman" />
+</div>
+
 <div class="buttonGrid">
     <a href="/blogzone/posts">
         <button>
@@ -85,6 +90,22 @@
         justify-items: center;
     }
 
+    .perfectInfo {
+        display: grid;
+        width: 60vw;
+        padding: 1vw 3vw;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(1em, auto);
+        align-items: center;
+        justify-items: center;
+        background-color: white;
+    }
+
+    .perfectInfoText {
+        padding: 0vh 0vw;
+    }
+
     h1{
         font-family: 'Brassia';
         font-size: 300%;
@@ -100,6 +121,12 @@
         padding: 2vh 2vw;
         text-align: center;
 	}
+
+    img {
+        width: 100%;
+        padding: 1vh 1vw;
+        margin: 0vh 0vw;
+    }
 
     button {
         font-family: Anybody;
@@ -147,6 +174,14 @@
             color: white;
             font-size: 200%;
             font-weight: bold;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        .perfectInfo {
+            width: 50vw;
         }
     }
 </style>
